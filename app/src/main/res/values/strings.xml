@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application12</string>
+    <string name="mssv">MSSV</string>
+    <string name="name">Họ và tên</string>
+    <string name="cccd">Căn cước công dân</string>
+    <string name="sdt">Số điện thoại</string>
+    <string name="email">Email</string>
+    <string name="quequan">Quê quán</string>
+    <string name="toast_message">Submit succeeded!!!</string>
+    <string name="address">Địa chỉ hiện tại</string>
+</resources>

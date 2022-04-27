@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/c_stuff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="454dp"
+            android:fillViewport="true"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/MSSV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MSSV" />
+
+                <EditText
+                    android:id="@+id/mssv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/mssv"
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Họ và tên" />
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/name"
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Số căn cước công dân" />
+
+                <EditText
+                    android:id="@+id/cccd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/cccd"
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Số điện thoại" />
+
+                <EditText
+                    android:id="@+id/sdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/sdt"
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/email"
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Quê quán" />
+
+                <EditText
+                    android:id="@+id/quequan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/quequan"
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nơi ở hiện tại" />
+
+                <EditText
+                    android:id="@+id/noi_o_hien_tai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/address"
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ngành học hiện tại" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioButton
+                        android:id="@+id/khmt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="setKhmt"
+                        android:text="Khoa học máy tính" />
+
+                    <RadioButton
+                        android:id="@+id/ktmt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:onClick="setKtmt"
+                        android:text="Kĩ thuật máy tính" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ngôn ngữ lập trình" />
+
+                <CheckBox
+                    android:id="@+id/c_check"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="C++/C#" />
+
+                <CheckBox
+                    android:id="@+id/java"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Java" />
+
+                <CheckBox
+                    android:id="@+id/python"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Python" />
+
+                <CheckBox
+                    android:id="@+id/other"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="Khác" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <CheckBox
+            android:id="@+id/dieukhoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="setDK"
+            android:text="Tôi đồng ý với điều khoản của chương trình" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="179dp"
+            android:layout_height="42dp"
+            android:onClick="setCheck"
+            android:text="Submit" />
+    </LinearLayout>
+</LinearLayout>
